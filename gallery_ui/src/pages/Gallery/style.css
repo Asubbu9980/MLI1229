@@ -1,0 +1,98 @@
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.image-card{
+    height: 75px;
+    width: 200px;
+    /* background-size: cover; */
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-input {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+    margin-top: 15px;
+    color: #333 !important;
+    line-height: 1.625 !important;
+    background-color: #fff !important;
+    border-color: #eee;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    box-shadow: none;
+    box-sizing: content-box;
+    border-radius: 0;
+    background-image: url(//addsearch.com/logo/AAAAAA-20.png ) !important;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+    width: 30% !important;
+    padding: 15px !important;
+    cursor: auto !important;
+
+
+}
+
+.custom-input:focus {
+    outline: none;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.select-label {
+    margin-top: 10px;
+}
+
+.custom-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.custom-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    min-height: 300px;
+    min-width: 250px;
+     
+}
+
+.custom-card .card-title {
+
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.custom-card .card-img-top {
+
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-left: 35px;
+}
+
+.custom-card .card-text {
+    font-size: 14px;
+    color: #888;
+    margin-left: 30px;
+}
+
+
+
+@media (max-width: 576px) {
+    .custom-card {
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+}
